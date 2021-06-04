@@ -1,0 +1,65 @@
+@import url("reset.css");
+
+.header-logo {
+    display: inline-block;
+   height: 40px;
+   width: auto;
+}
+
+.main-header {
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    color: #d9376e;
+}
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-navigation {
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+.navigation-list li a {
+    padding: 0.2em 1em;
+    font-size: 1.2rem;
+    transition: hover 1s linear;
+}
+
+.navigation-list li:last-child {
+    margin-left: auto;
+}
+
+.navigation-list li:last-child a{
+    padding: 0.5em 0.8em;
+    background-color: #d9376e;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-list li:hover a {
+    color: #d9376e;
+    transition: hover 1s linear;
+}
+
+.navigation-list li:last-child:hover a {
+    color: white;
+}

@@ -1,0 +1,79 @@
+@import url("reset.css");
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.add-cat-form-holder {
+    padding: 3em 0;
+}
+
+.cat-form {
+    width: 32%;
+    padding: 2em 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.heading {
+    font-size: 2.6rem;
+    margin-bottom: .5em;
+}
+
+.cat-form h3 {
+    font-size: 1.5rem;
+}
+
+.cat-form input,textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5em 0;
+    margin-bottom: 1em;
+    border: none;
+    border-bottom: var(--pink) 2px solid;
+}
+
+.cat-form span {
+    color: rgb(230, 67, 67);
+}
+
+input[type="submit"] {
+    padding: 0.5em;
+    width: fit-content;
+    margin: 0 auto;
+    border: none;
+    background-color: var(--pink);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#svg {
+    width: 200%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#svg path {
+    animation: move linear 10s infinite;
+}
+
+@keyframes move {
+ 0% {
+     transform: translateX(0%);
+ }
+ 
+ 100% {
+     transform: translateX(-50%);
+ }
+}
+
+
+
+

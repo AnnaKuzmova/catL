@@ -1,0 +1,117 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 2em 0;
+}
+
+.content-holder {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.content-holder section {
+    width: 45%;
+}
+
+.content-holder section h3 {
+    font-size: 2.2rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .5em 0;
+    border-bottom: var(--pink) 1px solid;
+}
+
+.box:last-child {
+    border-bottom: none ;
+}
+
+.box img {
+    width: 25%;
+    display: block;
+    margin-right: 0.3em;
+}
+
+.information-holder {
+    flex-grow: 1;
+}
+
+
+.information-holder p {
+    margin-bottom: 0.5em;
+}
+
+.information-holder button {
+    padding: 0.2em 0.5em;
+    border: var(--pink) 2px solid;
+    background-color: var(--bg-color);
+    font-size: 1.2rem;
+    color: var(--pink);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.confirmation-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(180, 178, 178, 0.6);
+}
+
+.confirmation-box {
+    position: relative;
+    width: 40%;
+    padding: 2em 0;
+    background-color: var(--bg-color);
+    border: var(--pink) 3px solid;
+    text-align: center;
+}
+
+.alert-signal {
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    border: var(--pink) 3px solid;
+}
+
+.confirmation-box h4 {
+    font-size: 1.5rem;
+    margin: 1em 0;
+}
+
+.btn {
+    margin: 0 2em;
+    padding: 0.2em 0.6em;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn.decline {
+    border: var(--pink) 1px solid;
+    color: var(--pink);
+}
+
+.btn.delete:hover {
+    color: var(--pink);
+}

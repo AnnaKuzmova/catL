@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+.main-footer {
+    padding: 2em 0;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem;
+    color: #d9376e;
+}
+
+.footer-logo-img {
+    height: 70px;
+}
+
+.center.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list-navigation {
+    list-style: none;
+    
+}
+
+.footer-list-navigation li {
+    margin: 1em 0em;
+}
+
+.footer-list-navigation li:last-child {
+    margin-top: 2em;
+}
+
+.footer-list-navigation li:last-child a {
+    padding: 0.7em 1.3em;
+    background-color: #d9376e;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.email-wrapper {
+    background-color: #d9376e;
+    border: #d9376e 3px solid;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.email-wrapper input {
+    width: 50%;
+    display: block;
+    height: inherit;
+}
+
+.email-wrapper input[type="email"] {
+    padding: 1em 0;
+    background-color:var(--bg-color) ;
+    border: none;
+}
+
+.email-wrapper input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+}
+

@@ -1,0 +1,49 @@
+@import url("reset.css");
+
+.cat-details-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-main-container {
+    padding: 3em 0;
+}
+
+.cat-details-holder {
+    padding: 2em 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.cat-details-picture {
+    display: block;
+    width: 100%;
+}
+
+.cat-image {
+    width: 40%;
+    margin-right: 2em;
+}
+
+.cat-info {
+    flex: 1;
+}
+
+.cat-info-name {
+    margin-bottom: 1em;
+    font-size: 2.3rem;
+}
+
+.cat-info-type {
+    margin-bottom: 0.5em;
+    font-size: 1.5rem;
+}
+
+.cat-info-type p {
+    margin-top: 0.3em;
+    font-size: 1rem;
+}
+
+.error-message {
+    color: rgb(192, 49, 49);
+    font-size: 2rem;
+}
