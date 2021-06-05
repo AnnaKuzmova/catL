@@ -5,15 +5,15 @@ University PHP Project
 catL is an university project for cat-lovers, where they can share,explore and enjoy cats. 
  
 * Implemented features :
-    *User Registration/Authentication/Authorization - catL supports two type of users (regular user and ```Admin``` user)
+    * User Registration/Authentication/Authorization - catL supports two type of users (regular user and ```Admin``` user)
         * Admin User    
             * Structured as a regular user with the difference that ```isAdmin column``` in the table ```tbl_user``` is set to ```true```.
             * Has privilleges over the regular user and user's cat(s).
     * Sessions
         * Every sessions has its own profile page where the current user has the authorization to:
-            *Read and Update personal user data from the database.
-            *Create, Read, Update, Delete (CRUD) data for current user's cat(s) data.
-            *Add images to their personal gallery and preview them.
+            * Read and Update personal user data from the database.
+            * Create, Read, Update, Delete (CRUD) data for current user's cat(s) data.
+            * Add images to their personal gallery and preview them.
         * The ```Cats``` pannel (page) is viewable for the current user. In case the session is not set ,then the cats-page's (```cats.php```) content is not visible. In the Cats pannel the user is authorized to :
             * Read and Filter all cat data from the database.
 
